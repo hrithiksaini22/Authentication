@@ -19,7 +19,7 @@ spec:
             - containerPort: 8080
           env:
             - name: SPRING_DATASOURCE_URL
-              value: "jdbc:postgresql://tutorial-db.default.svc.cluster.local:5432/tutorial"
+              value: "jdbc:postgresql://tutorial-db.default.svc.cluster.local:5432/tutorial-db"
             - name: SPRING_DATASOURCE_USERNAME
               value: "postgres"
             - name: SPRING_DATASOURCE_PASSWORD
